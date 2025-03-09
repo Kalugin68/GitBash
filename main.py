@@ -4,7 +4,6 @@ def print_hi(name):
 
 def main():
     lastname = input("Enter Your lastname: ")
-    lastname = lastname.upper()
     print_hi(lastname)
 
 
