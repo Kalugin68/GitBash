@@ -3,7 +3,9 @@ def print_hi(name):
 
 
 def main():
-    print_hi("PyCharm")
+    lastname = input("Enter Your lastname: ")
+    lastname = lastname.upper()
+    print_hi(lastname)
 
 
 main()
